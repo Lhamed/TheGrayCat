@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>탄이 더 바보 고양이</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        canvas {
+            background: #eee;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <canvas id="canvas_1" width="1980" height="1020"></canvas>
+
+    <script>
+        var canvas = document.getElementById("canvas_1");
+        var pencil = canvas.getContext("2d");
+
+        pencil.beginPath();
+        pencil.rect(160,100,500,500);
+        pencil.fillStyle= "rgba(0, 0, 255, 0.5)";
+        pencil.stroke;
+        pencil.fill();
+        pencil.closePath();
+
+    </script>
+
+</body>
+
+</html>
